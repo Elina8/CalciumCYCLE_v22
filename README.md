@@ -9,6 +9,8 @@ Calculation of quantitative parameters of signals from periodic calcium transien
 
 % For more information contact etzatzalos@gmail.com
 
+% Script is written for MATLAB(R)
+
 % A. GOAL: to calculate the following from time-dependent fluorescent activity:
 %    A1. Amplitude
 %    A2. Time-to-peak

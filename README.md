@@ -2,9 +2,13 @@
 Calculation of quantitative parameters of signals from periodic calcium transients
 
 % Created by Evangeline Tzatzalos
+
 % Most recently updated on 05/18/2016
+
 % Copyright (C) of Evangeline Tzatzalos
+
 % For more information contact etzatzalos@gmail.com
+
 % A. GOAL: to calculate the following from time-dependent fluorescent activity:
 %    A1. Amplitude
 %    A2. Time-to-peak

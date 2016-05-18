@@ -17,6 +17,7 @@ Calculation of quantitative parameters of signals from periodic calcium transien
 %    A5. TD90
 %    A6. Decay tau
 %
+
 % B. DATA STRUCTURE
 %    B1. The highest order folder is labeled according to experiment (directory_name)
 %    B2. The following are required embedded folders
@@ -27,6 +28,7 @@ Calculation of quantitative parameters of signals from periodic calcium transien
 %           ConditionX              % A new folder should be created for all conditions. 
 %    B3. All *.csv files should be placed inside the appropriate ConditionX folder.
 %
+
 % C. INPUTS: DATA FILES
 %    C1. Input data files are created by exported video files from Axiovision vxxx.
 %    C2. Input data files are *.csv. 
@@ -35,6 +37,7 @@ Calculation of quantitative parameters of signals from periodic calcium transien
 %    C5. Normalized fluroescence data of every sample thereafter is in every 6th column thereafter (i.e. Column I, O, U, AA...)
 %    C6. Column C should be deleted or converted to number format.  It provides information on frame rate which is not necessary.% C. OUTPUT
 %
+
 % D. INPUTS: REQUIREMENTS
 %    D1. continuous
 %    D2. at least 2 peaks
@@ -46,6 +49,7 @@ Calculation of quantitative parameters of signals from periodic calcium transien
 %    D8. Discard samples with high noise
 %    D9. Discard with incomplete depolarizations
 %
+
 % E. INPUTS: VARIABLES
 %    sampleID                  % name of identification for sample; E### EHM followed by ID, M#### monolayer followed by date.  It    %                                will be the first characters in all saved files.
 %    folderName                % the name of the ConditionX
@@ -59,6 +63,7 @@ Calculation of quantitative parameters of signals from periodic calcium transien
 %    MPD                       % default is 5;     % mean peak distance to identify maximums  
 %    MPD2                      % default is 5;     % mean peak distance to identify runoff points
 %
+
 % D. OUTPUT
 %    D1. The variable OUTPUT is an array of cells, each containing the analytical output from all samples in each .csv file.
 %           Column 1: Amplitude
@@ -73,6 +78,7 @@ Calculation of quantitative parameters of signals from periodic calcium transien
 %           Column 10: MPD
 %           Column 11: MPD2
 %
+
 % F. SAVING FEATURES
 %    F1. Input parameters are saved as *.dat under OUTPUT_input_parameters
 %    F2. Figures are saved as .fig under OUTPUT_analyzed_signal graphs

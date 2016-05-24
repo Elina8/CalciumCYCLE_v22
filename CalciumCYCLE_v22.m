@@ -4,7 +4,8 @@
 % For more information contact etzatzalos@gmail.com
 
 function CalciumCYCLE_v22(sampleID, folderName, firstFileToScan, first_sample, smoothingFactor, thresh_maxpeaks, thresh_diff2, MPD, MPD2)
-directory='C:/Users/Elina/Desktop/GitHubRepository_1/';
+directory='';
+
 % Script is written for MATLAB(R)
 % A. GOAL: to calculate the following from time-dependent fluorescent activity:
 %    A1. Amplitude
@@ -92,15 +93,15 @@ directory='C:/Users/Elina/Desktop/GitHubRepository_1/';
 % DEFINE INPUTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % sampleID='1';    %E### EHM followed by ID, M#### monolayer followed by date
-% folderName = 'ConditionX';
-% directory='C:/Users/Elina/Desktop/GitHubRepository_1/';
-% firstFileToScan = 1;
+% folderName = 'ConditionX';  % argument of the function
+% directory='';               % input in line 7
+% firstFileToScan = 1;        % arguments of the function
 % first_sample= 1;
 % 
 % % Filtering
-% smoothingFactor=4;       % removed smoothing and replaced with IIR filter
+% smoothingFactor=4;       % removed smoothing and replaced with IIR filter, argument of the function
 % 
-% % Input Parameters
+% % Input Parameters       % arguments of the function
 % thresh_maxpeaks=0;       % Maximum peaks threshold; see below "Amplitude", 0.9
 % thresh_diff2=5 ;         % threshhold for maximum 2nd derivatives of intensity curves (FLUOsmooth), 3.5
 % MPD=8;                   % minimum peak difference to identify maximums; increase MPD if too many maxs; decrease MPD if too few maxes
